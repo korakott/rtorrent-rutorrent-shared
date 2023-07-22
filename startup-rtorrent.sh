@@ -22,6 +22,8 @@ chown -R rtorrent:rtorrent /downloads/.rtorrent
 chown -R rtorrent:rtorrent /home/rtorrent
 chown -R rtorrent:rtorrent /downloads/.log/rtorrent
 
+chown -R rtorrent:rtorrent /downloads
+
 rm -f /downloads/.rtorrent/session/rtorrent.lock
 
 # run
